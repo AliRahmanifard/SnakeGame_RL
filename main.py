@@ -9,7 +9,7 @@ if __name__ == '__main__':
     total_score = 0
     record = 0
     agent = Agent()
-    game = SnakeGameAI(speed=200, has_ui=False)
+    game = SnakeGameAI(speed=200, has_ui=True)
     while True:
         # get old state
         state_old = agent.get_state(game)
